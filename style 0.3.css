@@ -1,0 +1,29 @@
+h2{
+    color:red;
+}
+
+div{
+    background-color: rgb(49, 120, 161);
+}
+
+#red{
+    background-color: red;
+    color:aliceblue;
+}
+
+.blue,body{
+    background-color:rgba(43, 182, 175, 0.349);
+    color:rgb(233, 228, 221);
+    border: 2px solid black;
+}
+
+p.one{
+    background-color: #fff;
+    color: darkgray;
+}
+
+
+*{
+    margin: 0.1;
+    padding: 0.1;
+}

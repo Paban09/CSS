@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    width: 60px;
+    height: 100px; /* vh means viewport height */
+    background-color: black;
+    color: white;
+}
+
+.main{
+
+    background-color: red;
+    color: azure;
+}
+
+.bg{
+    width: 344px;
+    height:344px;
+    /*
+    border: 2px solid green;
+    color: rgb(231, 231, 231);
+    
+
+    background-image: url('kaka.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-attachment: scroll; 
+    */
+    background-size: 320px 320px;
+    background: green  url('kaka.jpg') no-repeat scroll right top ;
+} 
