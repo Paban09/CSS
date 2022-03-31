@@ -1,5 +1,21 @@
 
+*{
+    padding: 0;
+    margin: 0;
+}
+
 .content{
     height: 300px;
-    width: 345px;
+    width: 340px;
+    /* background: red ; */
+    
+    margin: 25px 20px 15px 10px;
+    border: 25px  solid black;
+    border-radius: 15px;
+    /* border-color: silver;
+    border-style:  ridge;
+    border-width: 25px;
+    padding: 25px 13px; */
+
+    background: red url('kaka.jpg') no-repeat scroll ;
 }
