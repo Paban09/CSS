@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    font-size: 30px;
+}
+ 
+.box{
+    font-size: 3rem;
+}
