@@ -9,4 +9,8 @@
  
 .box{
     font-size: 3rem;
+    background-color: aqua;
+    width: 30vw ;
+    height: 50vh;
+    /* box-sizing: border-box; */
 }
