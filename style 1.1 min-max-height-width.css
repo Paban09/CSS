@@ -1,0 +1,8 @@
+
+
+.container{
+    width: 345px;
+    /* height: 30vh; */
+    background-color: red;
+    min-height: 60vh;
+}
