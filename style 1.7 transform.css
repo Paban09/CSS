@@ -1,0 +1,29 @@
+
+
+.container{
+    background-color: red;
+    height: 455px;
+
+}
+
+.box{
+    border: 2px solid black;
+    /* transform: translate(34px,14px); */
+    /* box-sizing: border-box; */
+    /* transform: scaleX(2);
+    transform: scaleY(2); */
+    display: inline-block;
+    
+
+}
+
+img:hover{
+    width:60px;
+}
+
+img{
+    width:445px;
+    transition-property: width;
+    transition-duration: 3s;
+    transition-timing-function: ease-in;
+}

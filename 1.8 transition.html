@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <link rel="stylesheet" href="./style 1.8 transition.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box"> 
+            <img class="image" id="myImage" src="https://source.unsplash.com/260x120/?car,vintage">
+            
+        </div>
+
+        <div class="box"> 
+            <img class="image" id="myImage2" src="https://source.unsplash.com/260x120/?car,racing">
+            
+        </div>
+        
+    </div>
+
+</body>
+
+<script>
+    myImage.style.width="146px";
+    myImage.style.height="56px";
+    myImage.addEventListener('click',()=>{
+        
+        if(myImage.style.width==="546px"){
+            myImage.style.width="146px"
+            myImage.style.height="56px";
+        }
+        else if(myImage.style.width==="146px"){
+            myImage.style.width="546px"
+            myImage.style.height="256px";
+        }
+       
+    })
+
+    myImage2.style.width="146px";
+    myImage2.style.height="56px";
+    myImage2.addEventListener('click',()=>{
+        
+        if(myImage2.style.width==="546px"){
+            myImage2.style.width="146px"
+            myImage2.style.height="56px";
+        }
+        else if(myImage2.style.width==="146px"){
+            myImage2.style.width="546px"
+            myImage2.style.height="256px";
+        }
+       
+    })
+</script>
+</html>
