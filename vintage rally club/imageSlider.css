@@ -1,0 +1,43 @@
+
+
+#slider{
+    overflow: hidden;
+    background-color: black;
+}
+
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 9s slider infinite;
+    
+}
+
+#slider figure img{
+    width:20%;
+    float:left;
+}
+
+@keyframes slider{
+    0%{
+        left:0;
+    }
+    30%{
+        left:0;
+    }
+    31%{
+        left:-100%;
+    }
+    60%{
+        left: -100%;
+    }
+    61%{
+        left: -200%;
+    }
+    90%{
+        left: -200%;
+    }
+    
+    
+}
