@@ -1,0 +1,28 @@
+.col-1{width:8.33%;background-color: red}
+.col-2{width:16.66%;background-color: peru}
+.col-3{width:25%;background-color: palegreen}
+.col-4{width:33.33%;background-color: darkblue}
+.col-5{width:41.66%;background-color: blue}
+.col-6{width:49%;background-color: violet}
+.col-7{width:58.33%;background-color: mediumvioletred}
+.col-8{width:66.66%;background-color: beige}
+.col-9{width:75%;background-color: olivedrab}
+.col-10{width:83.33%;background-color: brown}
+.col-11{width:91.66%;background-color: darkgrey}
+.col-12{width:100%;background-color: darkkhaki}
+
+*{
+    box-sizing: border-box;
+
+}
+
+/* for the same property same vaule*/
+[class*='col']{
+    float:left;
+    border: 2px solid black;
+}
+
+.h-40{height:40px}
+.h-50{height:50px}
+.h-250{height:250px}
+.h-600{height:600px}
